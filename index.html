@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="min-h-screen flex flex-col">
+        <header class="bg-blue-500 p-4 text-white">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-2xl font-bold">News Today</h1>
+                <nav>
+                    <a href="index.html" class="px-4">Home</a>
+                    <a href="about.html" class="px-4">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container mx-auto mt-6 flex-grow">
+            <section class="mb-8">
+                <h2 class="text-3xl font-bold mb-4">Latest News</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <article class="bg-white p-4 rounded shadow-md">
+                        <h3 class="text-xl font-semibold">
+                            <a href="news/article1.html" class="text-blue-500">Technology Advances in 2024</a>
+                        </h3>
+                        <p class="mt-2 text-gray-600">Discover the latest developments in the tech world...</p>
+                    </article>
+                    <article class="bg-white p-4 rounded shadow-md">
+                        <h3 class="text-xl font-semibold">
+                            <a href="news/article2.html" class="text-blue-500">Breaking: Major Event Happens</a>
+                        </h3>
+                        <p class="mt-2 text-gray-600">A brief introduction about the article...</p>
+                    </article>
+
+                    <article class="bg-white p-4 rounded shadow-md">
+                        <h3 class="text-xl font-semibold">
+                            <a href="news/article3.html" class="text-blue-500">Sustainable Energy Innovations</a>
+                        </h3>
+                        <p class="mt-2 text-gray-600">Explore the latest advancements in renewable energy technologies...</p>
+                    </article>
+                    
+                    <article class="bg-white p-4 rounded shadow-md">
+                        <h3 class="text-xl font-semibold">
+                            <a href="news/article4.html" class="text-blue-500">AI Breakthroughs in Healthcare</a>
+                        </h3>
+                        <p class="mt-2 text-gray-600">Learn how artificial intelligence is revolutionizing patient care...</p>
+                    </article>
+
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-blue-500 text-white p-4 mt-auto">
+            <p class="text-center">&copy; 2024 News Today</p>
+        </footer>
+    </div>
+</body>
+</html>
